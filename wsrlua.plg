@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: wsrlua - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP54B6.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_WIN32" /Fp"Debug/wsrlua.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\workspace\wsrlua\srlua.c"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP54B6.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP54B7.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib lua51.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/wsrlua.pdb" /debug /machine:I386 /out:"Debug/wsrlua.exe" /pdbtype:sept 
+.\Debug\srlua.obj
+.\Debug\wsrlua.obj
+.\Debug\wsrlua.res
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP54B7.tmp"
+<h3>Output Window</h3>
+Compiling...
+srlua.c
+d:\workspace\wsrlua\srlua.c(76) : warning C4146: unary minus operator applied to unsigned type, result still unsigned
+Linking...
+
+
+
+<h3>Results</h3>
+wsrlua.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
